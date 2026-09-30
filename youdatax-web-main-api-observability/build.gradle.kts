@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Daimler TSS GmbH - Initial API and Implementation
- *
+ * \extensions\common\api\api-observability
  */
 
 plugins {
