@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.web</groupId>
+  <artifactId>youdatax-web-main-api-observability</artifactId>
+  <version>0.0.3.0</version>
+  <name>yospace-ext-common-api-observability</name>
+  <description>yospace-ext-common-api-observability</description>
+  
+  <dependencies>
+<!--    api(project(":spi:common:core-spi"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>core-spi</artifactId>
+        <version>0.18.0</version>
+      </dependency>
+<!--    api(project(":spi:common:web-spi"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>web-spi</artifactId>
+        <version>0.18.0</version>
+      </dependency>    
+<!--    implementation(project(":core:common:lib:util-lib"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>util-lib</artifactId>
+        <version>0.18.0</version>
+      </dependency>    
+<!--    implementation(libs.jakarta.rsApi)
+jakarta-rsApi = { module = "jakarta.ws.rs:jakarta.ws.rs-api", version.ref = "rsApi" }-->
+      <dependency>
+        <groupId>jakarta.ws.rs</groupId>
+        <artifactId>jakarta.ws.rs-api</artifactId>
+        <version>4.0.0</version>
+      </dependency>    
+<!--swagger-annotations-jakarta = { module = "io.swagger.core.v3:swagger-annotations-jakarta", version.ref = "swagger" }-->
+      <dependency>
+        <groupId>io.swagger.core.v3</groupId>
+        <artifactId>swagger-annotations-jakarta</artifactId>
+        <version>2.2.40</version>
+      </dependency>
+      
+<!--    testImplementation(project(":core:common:junit"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>junit</artifactId>
+        <version>0.18.0</version>
+      </dependency>    
+<!--    testImplementation(testFixtures(project(":extensions:common:http:jersey-core")))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>jersey-core</artifactId>
+        <version>0.18.0</version>
+      </dependency>    
+<!--    testImplementation(libs.restAssured)
+restAssured = { module = "io.rest-assured:rest-assured", version.ref = "restAssured" }-->
+      <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>5.5.6</version>
+      </dependency>
+   </dependencies> 
+</project>
