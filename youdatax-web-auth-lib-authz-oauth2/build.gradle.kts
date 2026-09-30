@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Metaform Systems, Inc. - initial API and implementation
- *
+ * \extensions\common\auth\auth-authorization-oauth2-lib
  */
 
 plugins {
