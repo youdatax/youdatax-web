@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.web</groupId>
   <artifactId>youdatax-web-authn-service-delegated</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-ext-common-auth-delegated</name>
   <description>yospace-ext-common-auth-delegated</description>
   
