@@ -9,9 +9,9 @@
   <dependencies>
 <!--    api(project(":spi:common:auth-spi"))-->
       <dependency>
-        <groupId>com.yospace.core</groupId>
-        <artifactId>yospace-core-spi-auth</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.common</groupId>
+        <artifactId>youdatax-common-spi-auth</artifactId>
+        <version>0.0.4.0</version>
       </dependency>
 <!--    implementation(libs.jakarta.rsApi)
 jakarta-rsApi = { module = "jakarta.ws.rs:jakarta.ws.rs-api", version.ref = "rsApi" }-->
