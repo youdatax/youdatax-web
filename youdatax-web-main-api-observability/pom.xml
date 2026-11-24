@@ -2,28 +2,28 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.web</groupId>
   <artifactId>youdatax-web-main-api-observability</artifactId>
-  <version>0.0.3.0</version>
+  <version>0.0.4.0</version>
   <name>yospace-ext-common-api-observability</name>
   <description>yospace-ext-common-api-observability</description>
   
   <dependencies>
 <!--    api(project(":spi:common:core-spi"))-->
       <dependency>
-        <groupId>org.eclipse.edc</groupId>
-        <artifactId>core-spi</artifactId>
-        <version>0.18.0</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-common</artifactId>
+        <version>0.0.3.0</version>
       </dependency>
 <!--    api(project(":spi:common:web-spi"))-->
       <dependency>
-        <groupId>org.eclipse.edc</groupId>
-        <artifactId>web-spi</artifactId>
-        <version>0.18.0</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-web</artifactId>
+        <version>0.0.3.0</version>
       </dependency>    
 <!--    implementation(project(":core:common:lib:util-lib"))-->
       <dependency>
-        <groupId>org.eclipse.edc</groupId>
-        <artifactId>util-lib</artifactId>
-        <version>0.18.0</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-lib-util</artifactId>
+        <version>0.0.4.0</version>
       </dependency>    
 <!--    implementation(libs.jakarta.rsApi)
 jakarta-rsApi = { module = "jakarta.ws.rs:jakarta.ws.rs-api", version.ref = "rsApi" }-->
